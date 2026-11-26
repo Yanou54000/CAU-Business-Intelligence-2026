@@ -81,7 +81,27 @@ We track the work as 26 issues in our team repository. Each one has a single own
 
 ## Code and reproducibility
 
-The code isn't in this folder yet. We will add it here with the run instructions and dependencies before the final deadline.
+The analysis code will land here before the final deadline. For now this folder has the Python environment and the empty project folders.
+
+We use Python 3.14. Run this inside `projects/Epitech42`:
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+On Windows, run `.venv\Scripts\activate` instead of the `source` line. `requirements.txt` pins the versions we tested with, and git ignores the `.venv` folder.
+
+| Folder | What goes in it |
+| --- | --- |
+| `config/` | the list of games and the labelling rules |
+| `src/` | collection, cleaning, labelling and comparison code |
+| `data/raw/` | dated snapshots of the Steam data |
+| `data/processed/` | monthly tables built from a snapshot |
+| `dashboard/` | the Streamlit dashboard |
+| `docs/` | data description, method, ETL diagram |
+| `report/` | figures and the final report |
 
 ## Deliverables
 
