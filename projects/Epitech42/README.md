@@ -43,9 +43,9 @@ We check a sample of labels by hand and report the error rate.
 
 | Member | Role | Main tasks |
 | --- | --- | --- |
-| Yanis Senovic | Project leader | question, BI decision, Python environment, label check, error analysis, demo video, submission |
+| Yanis Senovic | Project leader | question, BI decision, Python environment, data description, label check, error analysis, demo video, submission |
 | Luc Simon | Developer | data collection and cleaning, labels, baseline, dashboard, slides file |
-| Aloys Mangin | Documentation | data description, ETL diagram, final report, AI use disclosure, contributions record |
+| Aloys Mangin | Documentation | ETL diagram, final report, AI use disclosure, contributions record |
 
 ## Plan and tasks
 
@@ -60,7 +60,7 @@ We track the work as 26 issues in our team repository. Each one has a single own
 
 ### Yanis
 
-- Week 1: confirm the five games; write the research question and the BI decision on one page; set up the Python environment and the folders; ask the professor about the demo format
+- Week 1: confirm the five games; write the research question and the BI decision on one page; set up the Python environment and the folders; write the data description; ask the professor about the demo format
 - Week 2: check a sample of labels by hand and measure the error rate
 - Week 3: write the error analysis and the limits; review the slides and rehearse the 7-minute talk (with Aloys)
 - Week 4: record the demo video; submit the final package
@@ -74,7 +74,6 @@ We track the work as 26 issues in our team repository. Each one has a single own
 
 ### Aloys
 
-- Week 1: write the data description
 - Week 2: draw the data model and ETL diagram
 - Week 3: review the slides and rehearse (with Yanis)
 - Week 4: write the final report, the AI use disclosure and the contributions record; collect the supporting files
